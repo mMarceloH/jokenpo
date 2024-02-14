@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Hind Siliguri;
+}
+
+body {
+    background: url("https://source.unsplash.com/1600x900/?landscape");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+button {
+    margin-bottom: 10px;
+    margin-left: 14px;
+    padding: 20px;
+    font-size: 50px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover{
+    opacity: 0.5;
+}
+
+#rock {
+    background-color: #4CAF50;
+}
+
+#paper {
+    background-color: #A0E9F8;
+}
+
+#scissor {
+    background-color: #CE0A0A;
+}
+
+.your-score span {
+    color: #14e41e;
+}
+
+.machine-score span {
+    color: #e21e1e;
+}
+
